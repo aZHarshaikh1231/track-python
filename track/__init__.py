@@ -3,7 +3,7 @@ from track.client import Client
 __version__ = VERSION
 
 """Settings"""
-api_key = None
+api_key =None
 default_client = None
 host = None
 sync_mode = False
