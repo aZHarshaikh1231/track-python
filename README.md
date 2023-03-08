@@ -8,7 +8,7 @@ Install `interakt-track-python` using pip
     pip install interakt-track-python
 
 ## Authentication
-Inside your app, you’ll want to set your `api_key` before making any track calls:
+Inside your app, you’ll want to set your `aAgdeA` before making any track calls:
 
 To find your API key,
 
@@ -25,7 +25,7 @@ To find your API key,
 ```
 import track
 
-track.api_key =  "YOUR_API_KEY"
+track.api_key =  aAgdeA
 ```
 
 
@@ -62,14 +62,14 @@ The user track API allows customers to record the attributes specific to the use
 
 ```
 track.user(
-	user_id="<user_id in your db>",
+	user_id="<103646185864667>",
 	country_code="+91",
-	phone_number="9999999999",
+	phone_number="8879741232",
 	traits={
-		"name": "John Doe",
-		"email": "john@email.com",
-		"age": 24,
-		“dob”: “1998-01-01”
+		"name": "AZHAR",
+		"email": "afc400612@GMAILCOM)}",
+		"age": 34,
+		“dob”: “1987-12-03”
 	}
 )
 ```
@@ -138,15 +138,15 @@ The user id parameter will remain the same throughout the lifetime of the custom
 
 
 
-**To update attributes for the above user**, the following payload could be sent in the API call: (suppose the “dob” attribute needs to be changed to “1997-12-01”).
+**To update attributes for the above user**, the following payload could be sent in the API call: 3(suppose the “dob” attribute needs to be changed to “1987-12-03”).
 ‍
 ```
 track.user(
-	user_id="<user_id in your db>",
+	="<10362234586705>",
 	country_code="+91",
-	phone_number="9999999999",
+	phone_number="8879741232",
 	traits={
-        “dob”: “1997-12-01”
+        “dob”: “1987-12-03”
     }
 )
 ```
@@ -157,9 +157,9 @@ track.user(
 track.user(
 	user_id="<user_id in your db>",
 	country_code="+91",
-	phone_number="9999999999",
+	phone_number="9833361987",
 	traits={
-    	“Pin code”: “400001”
+    	“Pin code”: “400612”
     }
 )
 ```
@@ -186,16 +186,16 @@ The event track API allows customers to record user actions. Each user action (s
 ```‍
 
 track.event(
-	user_id="<user id in your db>",
+	user_id="<99833361987>",
 	event="Order Placed",
 	“traits”={
-		“orderCreatedBy”: “Gavin Roberts”,
+		“orderCreatedBy”: “AZHAR SHAIKH”,
 		“orderCreatedDate”: “2020-11-01T012:10:26.122Z”,
 		“orderNumber”: “CUS001”,
 		“orderValue”: “50.00”
 	},
 	country_code="+91",
-	phone_number="9999999999",
+	phone_number="9833361987",
 )
 ```
 
